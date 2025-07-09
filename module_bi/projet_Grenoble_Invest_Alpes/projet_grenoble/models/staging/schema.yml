@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    tables:
+      - name: base_entreprises
+
+models:
+  - name: stg_base_entreprise
+    description: Données entreprises nettoyées depuis la couche raw

@@ -741,3 +741,61 @@ Internal Error
 [0m13:04:41.889185 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f37f87343e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f37f80d5eb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f37f840c4a0>]}
 [0m13:04:41.889574 [debug] [MainThread]: Flushing usage events
 [0m13:04:42.295766 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:32:05.584937 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c430fd762a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c430e15ff20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c430d9d1cd0>]}
+
+
+============================== 07:32:05.589100 | 5b692ae4-2af1-4d16-9f4d-08176b14bb97 ==============================
+[0m07:32:05.589100 [info ] [MainThread]: Running with dbt=1.10.3
+[0m07:32:05.589685 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/home/Inoth/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init projet_Grenoble_Invest_Alpes', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m07:32:05.601059 [info ] [MainThread]: A project called projet_Grenoble_Invest_Alpes already exists here.
+[0m07:32:05.602212 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.07577501, "process_in_blocks": "16", "process_kernel_time": 0.140506, "process_mem_max_rss": "101792", "process_out_blocks": "16", "process_user_time": 1.475991}
+[0m07:32:05.602740 [debug] [MainThread]: Command `dbt init` succeeded at 07:32:05.602624 after 0.08 seconds
+[0m07:32:05.603121 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c430d27c800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c430f02e210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c430f02c5c0>]}
+[0m07:32:05.603595 [debug] [MainThread]: Flushing usage events
+[0m07:32:06.293464 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:34:46.336479 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c89146d27b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c8915b87aa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c8916866ed0>]}
+
+
+============================== 07:34:46.339836 | 97de21bf-b405-442d-8b5e-97d0d306986d ==============================
+[0m07:34:46.339836 [info ] [MainThread]: Running with dbt=1.10.3
+[0m07:34:46.342080 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/Inoth/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'invocation_command': 'dbt init projet_Grenoble_Invest_Alpe', 'send_anonymous_usage_stats': 'True'}
+[0m07:34:46.353106 [debug] [MainThread]: Starter project path: /home/Inoth/Documents/work/module_bi/.dbt-env/lib/python3.12/site-packages/dbt/include/starter_project
+[0m07:34:46.355473 [info ] [MainThread]: 
+Your new dbt project "projet_Grenoble_Invest_Alpe" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m07:34:46.356314 [info ] [MainThread]: Setting up your profile.
+[0m07:36:06.726548 [info ] [MainThread]: Profile projet_Grenoble_Invest_Alpe written to /home/Inoth/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m07:36:06.727790 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 80.45286, "process_in_blocks": "0", "process_kernel_time": 0.119497, "process_mem_max_rss": "105272", "process_out_blocks": "80", "process_user_time": 1.525567}
+[0m07:36:06.729397 [debug] [MainThread]: Command `dbt init` succeeded at 07:36:06.728217 after 80.45 seconds
+[0m07:36:06.730076 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c89146d27b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c8913e5c590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c8915af3710>]}
+[0m07:36:06.730590 [debug] [MainThread]: Flushing usage events
+[0m07:36:07.213198 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:30:37.143280 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7428b28db260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7428b42e6cc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7428b2789640>]}
+
+
+============================== 07:30:37.147440 | 57fe158f-ba79-42ec-bfa4-f0b93a633923 ==============================
+[0m07:30:37.147440 [info ] [MainThread]: Running with dbt=1.10.3
+[0m07:30:37.148004 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/Inoth/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m07:30:37.148491 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/Inoth/Documents/work/module_bi/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m07:30:37.149512 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.06629107, "process_in_blocks": "16", "process_kernel_time": 0.1028, "process_mem_max_rss": "101548", "process_out_blocks": "8", "process_user_time": 1.619624}
+[0m07:30:37.150023 [debug] [MainThread]: Command `dbt run` failed at 07:30:37.149915 after 0.07 seconds
+[0m07:30:37.150411 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7428b19d3e30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7428b23ff620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7428b2197350>]}
+[0m07:30:37.150880 [debug] [MainThread]: Flushing usage events
+[0m07:30:37.537838 [debug] [MainThread]: An error was encountered while trying to flush usage events
