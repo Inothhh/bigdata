@@ -1,6 +1,6 @@
 {{ config(
     materialized='view',
-    schema='raw'
+    schema='core'
 ) }}
 
 
